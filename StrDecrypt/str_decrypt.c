@@ -59,9 +59,9 @@ int forbidden(char ch)
 
 void freeGC()
 {
-	// Make sure the GC is not empty.
-	if(GC.n == 0)
-		return;
+    // Make sure the GC is not empty.
+    if(GC.n == 0)
+        return;
 	
     GC.size = GC_BUFFER;
 
