@@ -2,7 +2,7 @@
 # String encryption tool.
 Parse a set of given source files and encrypt all strings located inside the 'ok-to-encrypt' areas, marked by the following comments: 
 
-> // BEGIN_ENCRYPT
+> // BEGIN_ENCRYPT  
 > // STOP_ENCRYPT
 
 ## Usage:
